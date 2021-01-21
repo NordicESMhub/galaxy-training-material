@@ -153,8 +153,13 @@ We will be using the CTSM/FATES-EMERALD Galaxy tool.
 >    >
 >    {: .comment}
 >
-> 2. Check that the datatype {% icon galaxy-pencil %} of your outputs (history file) is **netcdf**
+> 2. Check that the datatype {% icon galaxy-pencil %} of your outputs (history file) is **[netcdf](https://en.wikipedia.org/wiki/NetCDF)**
 >      - If this is not the case, please change the datatype now
+>
+>    > ### {% icon comment %} About CLM-FATES history files
+>    > All the CLM-FATES history files are organized in a collection.
+>    >
+>    {: .comment}
 >
 >    > ### {% icon comment %} About datatypes
 >    >
