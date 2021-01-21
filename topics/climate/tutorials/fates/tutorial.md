@@ -205,7 +205,7 @@ We will be using the CTSM/FATES-EMERALD Galaxy tool.
 
 > ### {% icon hands_on %} Hands-on: Launch Panoply
 >
->  Panoply is available as a Galaxy interactive environment and may not be available on all Galaxy servers.
+>  [Panoply](https://www.giss.nasa.gov/tools/panoply/) plots geo-referenced and other arrays from netCDF and is available as a Galaxy interactive environment and may not be available on all Galaxy servers.
 >
 > > ### {% icon tip %} Tip: Launch Panoply in Galaxy
 > > Currently Panoply in Galaxy is available on useGalaxy.eu instance, on the "Interactive tools" tool panel section or,
