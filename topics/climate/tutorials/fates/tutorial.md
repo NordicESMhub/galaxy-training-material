@@ -107,10 +107,6 @@ For the purpose of this tutorial, input data for a single point location ALP1 (6
 >
 >    {% include snippets/rename_dataset.md %}
 >
-> 5. Add a tag to the dataset corresponding to `#fates`
->
->    {% include snippets/add_tag.md %}
->
 {: .hands_on}
 
 # Setting up a CLM-FATES simulation
