@@ -333,7 +333,7 @@ so that we can reuse it for any simulations.
 >
 > 1. Go to the **History Options menu**  {% icon galaxy-gear %} menu
 >    - Select the **Extract Workflow** option.
->    - Remove any unwanted steps, in particular all steps with Panoply.
+>    - Remove any unwanted steps, in particular all steps with Panoply as we do not want to have interactive tools in our automated workflow..
 >
 > 2. **Rename** the workflow to something descriptive
 >    - For example: `CLM-FATES_ ALP1 simulation (5 years)`.
@@ -360,7 +360,8 @@ We would like to run a CLM-FATES case where the atmospheric Carbon Dioxyde Conce
 >
 > 2. Edit your workflow and customize it to run your new CO2 experiment. For this you would need to:
 >      - In "Advanced customization", change "Atmospheric CO2 molar ratio (by volume) only used when co2_type==constant (umol/mol)" from 367.0 to 1468.0.
->      - Add an extra step to extract the first history file from the history collection
+>      - Add an extra step to extract the first history file from the history collection: {% tool [Extract Dataset](__EXTRACT_DATASET__) %}
+>        and make sure to select "netcdf" in the change datatype field.
 >      - Generate the corresponding plot.
 >    The final workflow would be similar to the one shown below:
 >
