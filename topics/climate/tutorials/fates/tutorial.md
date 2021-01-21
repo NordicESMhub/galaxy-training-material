@@ -125,6 +125,13 @@ We will be using the CTSM/FATES-EMERALD Galaxy tool.
 >
 {: .comment}
 
+> ### {% icon comment %} Tip: Pre-selected tool parameters
+>
+> When selecting a tool, Galaxy will pre-fill the tool parameters, selecting the first dataset with the corresponding type in your history.
+> Be aware that very often, the default pre-selection is incorrect and do not correspond to the required dataset.
+> So always check and update accordingly the tool parameters!
+>
+{: .comment}
 > ### {% icon hands_on %} Hands-on: Creating a new CTSM/FATES-EMERALD case
 >
 > 1. {% tool [CTSM/FATES-EMERALD](toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1) %} with the following parameters:
